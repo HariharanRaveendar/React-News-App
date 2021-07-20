@@ -45,7 +45,7 @@ function Main(){
       <div class="input-group mb-3">
             <input type="search" onChange={(event)=>{readValue(event.target.value)}} class="form-control" placeholder="Search the data" aria-label="Search the data" aria-describedby="basic-addon2"/>
             <div class="input-group-append">
-                <button class="btn btn-outline-secondary" onClick={searchNews} type="button">Button</button>
+                <button class="btn btn-outline-secondary" onClick={searchNews} type="button">Search News</button>
             </div>
             </div>
          <h1 class="h1 text-center" id="pageHeaderTitle">All news</h1>
